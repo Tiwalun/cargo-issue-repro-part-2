@@ -1,0 +1,7 @@
+[package]
+name = "test_b"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+test_a = { version = "0.1.0", git = "https://github.com/Tiwalun/cargo-issue-repro-part-1" }
